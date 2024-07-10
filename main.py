@@ -30,25 +30,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# Renderizando HTML
-html_content = """
-Olá, Mundo!
-Este é um parágrafo HTML renderizado a partir do Python.
-"""
-display(HTML(html_content))
-
-# Renderizando CSS
-css_content = """
-<style>
-    p {
-        color: red;
-    }
-"""
-display(HTML(css_content))
-
-# Renderizando JavaScript
-js_content = """
-    <script>alert('Olá, Mundo!');</script>
-"""
-display(HTML(js_content))
